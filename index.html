@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <title>Alivio</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <svg class="logo" aria-label="logo">
+          <use href="assets/sprites.svg#logo-icon"></use>
+        </svg>
+        <nav class="header__nav" aria-label="header navigation">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#about-id" class="header__nav-link">Why Alivio</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#success-id" class="header__nav-link">Solutions</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#product-id" class="header__nav-link">Community</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#pricing-id" class="header__nav-link">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__actions">
+          <button type="button" class="btn btn--signin">Sign in</button>
+          <button type="button" class="btn">Start Trial</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="mobile-nav" aria-label="mobile navigation">
+    <label for="toggler-id">
+      <svg class="mobile-nav__burger-icon" aria-label="burger icon">
+        <use href="assets/sprites.svg#burger"></use>
+      </svg>
+    </label>
+    <input type="checkbox" name="toggler" id="toggler-id" class="mobile-nav__toggler">
+    <nav class="mobile-nav__menu" aria-label="mobile navigation menu">
+          <ul class="mobile-nav__list">
+            <li class="mobile-nav__item">
+              <a href="#about-id" class="mobile-nav__link">Why Alivio</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#success-id" class="mobile-nav__link">Solutions</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#product-id" class="mobile-nav__link">Community</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#pricing-id" class="mobile-nav__link">Pricing</a>
+            </li>
+          </ul>
+          <label for="toggler-id">
+      <svg class="mobile-nav__cross-icon" aria-label="cross icon">
+        <use href="assets/sprites.svg#cross"></use>
+      </svg>
+    </label>
+        </nav>
+      </nav>
+  <main>
+    <section class="hero" aria-label="hero section">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title" aria-label="hero title">Be aware, Manage well</h1>
+          <p class="hero__description">Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+          <button type="button" class="btn">Find Your Way</button>
+        </div>
+      </div>
+    </section>
+    <section class="about" aria-label="about section" id="about-id">
+      <div class="container">
+        <div class="about__content">
+          <h2 class="about__title" aria-label="about title">Understand & Release the stress in 3 steps</h2>
+          <p class="about__description">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+        </div>
+          <div class="about__cards">
+            <figure class="card" aria-label="first card">
+             <h3 class="card__title" aria-label="card title">Personalize</h3>
+             <p class="card__description">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+             <img src="assets/webp/card_01.webp" alt="card 01" class="card__image">
+            </figure>
+            <figure class="card" aria-label="second card">
+             <h3 class="card__title card__title--right card__title--second" aria-label="card title">Write & Understand</h3>
+             <p class="card__description">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+             <img src="assets/webp/card_02.webp" alt="card 02" class="card__image">
+            </figure>
+            <figure class="card" aria-label="third card">
+             <h3 class="card__title card__title--third" aria-label="card title">Alivio!</h3>
+             <p class="card__description">Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for? Alivio today!</p>
+             <img src="assets/webp/card_03.webp" alt="card 03" class="card__image">
+            </figure>
+        </div>
+      </div>
+    </section>
+    <section class="success" aria-label="success section" id="success-id">
+      <div class="container">
+        <div class="success__wrapper">
+         <div class="success__content">
+          <h2 class="success__title" aria-label="success title">Let's hear about Kayla's success story</h2>
+          <p class="success__description">See how well Alivio works in a real customer's life.</p>
+          <button type="button" class="btn">Let's get started</button>
+        </div>
+        <div class="success__video-cover">
+          <img src="assets/webp/video-cover.webp" alt="video-cover" class="success__video-cover-img">
+          <svg class="success__play-icon" aria-label="play icon">
+           <use href="assets/sprites.svg#play-icon"></use>
+          </svg>
+          <div class="success__gradient"></div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="product" aria-label="product section" id="product-id">
+      <div class="container">
+        <div class="product__wrapper">
+          <div class="product__preview">
+            <img src="assets/webp/photo-card.webp" alt="product preview" class="product__preview-image">
+          </div>
+           <div class="product__content">
+          <h3 class="product__title" aria-label="product title">You tell us your stress, We make your diary</h3>
+          <p class="product__description">Everyone experiences it, and in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+          <button type="button" class="btn">Find Your Way</button>
+        </div>
+        <figure class="card-person">
+          <h4 class="card-person__title" aria-label="card-person title">Customized For</h4>
+          <div class="card-person__avatar">
+            <img src="assets/webp/photo-card.webp" alt="card-person avatar" class="card-person__avatar-image">
+          </div>
+          <h5 class="card-person__name">Mikayla</h5>
+          <blockquote class="card-person__description">
+            <h6 class="card-person__subtitle" aria-label="card-person subtitle">Your custom contents</h6>
+            <ul class="card-person__list">
+              <li class="card-person__item">Understand Your Stress</li>
+              <li class="card-person__item">Anger Managemen</li>
+            </ul>
+          </blockquote>
+        </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="pricing" id="pricing-id">
+    <div class="container">
+      <div class="pricing__content">
+        <h3 class="pricing__title">Alivio</h3>
+        <nav class="pricing__nav" aria-label="pricing navigation">
+          <ul class="pricing__nav-list">
+            <li class="pricing__nav-item">
+              <a href="#about-id" class="pricing__nav-link">Why Alivio</a>
+            </li>
+            <li class="pricing__nav-item">
+              <a href="#success-id" class="pricing__nav-link">Solutions</a>
+            </li>
+            <li class="pricing__nav-item">
+              <a href="#product-id" class="pricing__nav-link">Community</a>
+            </li>
+            <li class="pricing__nav-item">
+              <a href="#pricing-id" class="pricing__nav-link">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

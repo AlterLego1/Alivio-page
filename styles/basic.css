@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: var(--co-white);
+    font-family: "Lato", sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 10px 0;
+    max-width: 1400px;
+}
+
+.logo{
+    width: 80px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,figure,blockquote{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.btn{
+    background-color: var(--co-green);
+    color: var(--co-white);
+    font-family: "Lato", sans-serif;
+    border: none;
+    outline: none;
+    width: 185px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.btn--signin{
+    color: var(--co-black);
+    background-color: transparent;
+    width: 90px;
+}
+
+.btn:focus-visible,
+.btn:hover{
+    outline: 2px solid var(--co-dark-green);
+    cursor: pointer;
+}

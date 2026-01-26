@@ -1,0 +1,100 @@
+.about {
+    padding: 190px 0 55px;
+    background-color: var(--co-white);
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.about__title::before{
+    content: "How it works";
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    color: var(--co-black);
+    top: -40px;
+}
+
+.about__title {
+    max-width: 504px;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--co-green);
+    position: relative;
+}
+
+.about__description {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--co-black);
+    max-width: 650px;
+}
+
+.about__cards {
+    margin: 180px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 20px;
+}
+
+.about__cards .card:nth-child(2){
+    margin: 230px 0 0;
+}
+
+@media(max-width: 1250px){   
+
+    .about {
+    padding: 90px 0 20;
+}
+
+    .about__content {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.about__description {
+    max-width: 510px;
+}
+
+.about__cards {
+    margin: 130px 0 0;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.about__cards .card:nth-child(2){
+    margin: 0 0 0;
+}
+}
+
+@media(max-width: 576px){   
+
+     .about__content{
+        padding: 0 10px 0;
+    }
+
+    .about__title {
+    font-size: 35px;
+}
+
+.about__description {
+    font-size: 16px;
+}
+}
+
+@media(max-width: 480px){   
+    .about__cards {
+    margin: 50px 0 0;
+    row-gap: 5px;
+}
+
+}
